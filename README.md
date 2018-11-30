@@ -1,8 +1,8 @@
 # DjangoBlog
 
-基于`python3.6`和`Django2.1`的博客。   
+基于`python3.6`和`Django2.1`的博客，运行和安装均在Windows下运行正常
 
-[![Build Status](https://travis-ci.org/liangliangyy/DjangoBlog.svg?branch=master)](https://travis-ci.org/liangliangyy/DjangoBlog) [![codecov](https://codecov.io/gh/liangliangyy/DjangoBlog/branch/master/graph/badge.svg)](https://codecov.io/gh/liangliangyy/DjangoBlog) [![Requirements Status](https://requires.io/github/liangliangyy/DjangoBlog/requirements.svg?branch=master)](https://requires.io/github/liangliangyy/DjangoBlog/requirements/?branch=master)  [![license](https://img.shields.io/github/license/liangliangyy/djangoblog.svg)]() [![GitHub release](https://img.shields.io/github/release/liangliangyy/djangoblog.svg)]() [![python3.5](https://img.shields.io/badge/python-3.5-brightgreen.svg)]() [![django1.10](https://img.shields.io/badge/django-2.0-brightgreen.svg)]()     
+[![Build Status](https://travis-ci.org/azaaza987/DjangoBlog-master.svg?branch=master)](https://travis-ci.org/azaaza987/DjangoBlog-master) [![codecov](https://codecov.io/gh/azaaza987/DjangoBlog-master/branch/master/graph/badge.svg)](https://codecov.io/gh/azaaza987/DjangoBlog-master) [![Requirements Status](https://requires.io/github/azaaza987/DjangoBlog-master/requirements.svg?branch=master)](https://requires.io/github/azaaza987/DjangoBlog-master/requirements/?branch=master)  [![license](https://img.shields.io/github/license/azaaza987/DjangoBlog-master.svg)]() [![GitHub release](https://img.shields.io/github/release/azaaza987/DjangoBlog-master.svg)]() [![python3.5](https://img.shields.io/badge/python-3.5-brightgreen.svg)]() [![django1.10](https://img.shields.io/badge/django-2.0-brightgreen.svg)]()     
 
 ## 主要功能：
 - 文章，页面，分类目录，标签的添加，删除，编辑等。文章及页面支持`Markdown`，支持代码高亮。
@@ -58,7 +58,7 @@ windows电脑：
         }
     }
 
-### 创建数据库
+### 创建数据库并同根据SQL脚步同步数据库
 mysql数据库中执行:
 ```sql
 CREATE DATABASE `djangoblog` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci */;
@@ -90,8 +90,5 @@ CREATE DATABASE `djangoblog` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8
 
 
  浏览器打开: http://127.0.0.1:8000/  就可以看到效果了。
-## 更多配置:
-[更多配置介绍](/bin/config.md)
- ## 问题相关
 
- 有任何问题欢迎提Issue,或者将问题描述发送至我邮箱 `liangliangyy#gmail.com`.我会尽快解答.推荐提交Issue方式.
+ 
